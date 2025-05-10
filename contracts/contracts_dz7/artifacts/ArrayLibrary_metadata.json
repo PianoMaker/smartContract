@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/contracts_dz7/ArrayLibrary.sol": "ArrayLibrary"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/contracts_dz7/ArrayLibrary.sol": {
+			"keccak256": "0xdf5033e073ae785aa3b53bfc20c2b527ac087c3e51faae487d9b5e4cf955982e",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://47e006b8f8c6373e07553903a953acf5ee35cdb0dfa66d5d07f3ff8170e2b82d",
+				"dweb:/ipfs/QmTh5HPEQNc5RabMAKK9BzUxndigxnSNUmrQAEjPmn5tUK"
+			]
+		}
+	},
+	"version": 1
+}

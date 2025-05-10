@@ -13,18 +13,26 @@ library ArrayLibrary {
     }
 
     function sort(uint[] storage self) internal {
+        uint j = 0;
         for (uint i=0; i< self.length; j++) {
             if (self[j] > self [i]) {
-                _swap(self, 1);
+                _swap(self, i, j);
             }
         }
     }
+
     function remove(uint[] storage self, uint index) internal {
         require( index < self.length, "Index out of bounds;");
-        for (int i = index; i<self.length-1; ++i){
+        for (uint i = index; i<self.length-1; ++i){
             self[i] = self[i + 1];
         }
         self.pop();
+    }   
+
+    function _swap(uint[] storage arr, uint indexA, uint indexB) internal {
+        uint temp = arr[indexA];
+        arr[indexA] = arr[indexB];
+        arr[indexB] = temp;
     }
 
 }
